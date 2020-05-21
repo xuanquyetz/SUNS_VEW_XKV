@@ -242,10 +242,9 @@ namespace SUNS_VEW
                     k.TrangThai,
                     k.SoVaoVien,
                     m.TongTime
-
                 }
                 ).ToList();
-            // timer2.Start();
+             //timer2.Start();
            // var listBNChoKhamByKhoa = gDanhSach.DataSource = VewKhamBenhDAO.Instance.ListChoKhamByPK(MaPK);
            // gDanhSach.DataSource = listFull.Where(q => q.TongTime < 30);
             gDanhSach.DataSource = listFull;
@@ -265,7 +264,6 @@ namespace SUNS_VEW
                     k.TrangThai,
                     k.SoVaoVien,
                     m.TongTime
-
                 }
                 ).ToList();
             gDanhSach.DataSource = listFull;
