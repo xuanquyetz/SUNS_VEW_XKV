@@ -30,8 +30,8 @@ namespace SUNS_VEW
         // private string connectionstr = @"Data Source=APPLE5460;Initial Catalog=SUNS_HIS;Integrated Security=True";
        // private string connectionstr = @"Data Source=192.168.1.251;Initial Catalog=SUNS_PKTINDUC;User ID=suns;Password=sunssql@2019";
        // private string connectionstr = @"Data Source=115.79.29.62;Initial Catalog=SUNS_PKASIANPHUMY_TEST;User ID=suns;Password=sunssql@2019";
-        private string connectionstr = @"Data Source=115.79.217.229;Initial Catalog=SUNS_YDUOCMIENDONG;User ID=suns;Password=sunssql@2019";
-        //private string connectionstr = @"Data Source=192.168.1.219;Initial Catalog=SUNS_YDUOCMIENDONG;User ID=suns;Password=sunssql@2019";
+        //private string connectionstr = @"Data Source=115.79.217.229;Initial Catalog=SUNS_YDUOCMIENDONG;User ID=suns;Password=sunssql@2019";
+        private string connectionstr = @"Data Source=192.168.1.219;Initial Catalog=SUNS_YDUOCMIENDONG;User ID=suns;Password=sunssql@2019";
 
         //public DataTable KetNoiData(string query)
         public DataTable ExecuteQuery(string query,object[] paramater =null)

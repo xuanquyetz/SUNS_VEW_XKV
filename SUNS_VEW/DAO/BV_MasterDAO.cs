@@ -41,7 +41,8 @@ namespace SUNS_VEW.DAO
         public List<BV_MasterDTO> ListBV_Master_Cho()
         {
             List<BV_MasterDTO> listfull = new List<BV_MasterDTO>();
-            DataTable data = KeNoiData.Instance.ExecuteQuery("SELECT *  FROM [BV_Master] Where [TrangThaiThu]!=-99 AND Ngay=CONVERT (DATE, GETDATE())");
+           // DataTable data = KeNoiData.Instance.ExecuteQuery("SELECT *  FROM [BV_Master] Where [TrangThaiThu]!=-99 AND Ngay=CONVERT (DATE, GETDATE())");
+            DataTable data = KeNoiData.Instance.ExecuteQuery("SELECT *  FROM [BV_Master] Where Ngay=CONVERT (DATE, GETDATE())");
             foreach (DataRow item in data.Rows)
             {
                 BV_MasterDTO cls = new BV_MasterDTO(item);
